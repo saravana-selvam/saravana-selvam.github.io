@@ -30,6 +30,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+-o-user-select: none;
+user-select: none;
+}
+
+body {
 	line-height: 1;
 }
 
